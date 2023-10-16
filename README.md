@@ -8,13 +8,13 @@ set .env.PORT
 ```
 ## dev
 ```bash
-dev: yarn serve / npm run serve
+yarn serve / npm run serve
 ```
 ## build
 ```bash
-build: yarn build / npm run build (result in /dist/index.js)
+yarn build / npm run build (result in /dist/index.js)
 ```
 ## launch a built project
 ```bash
-launch a builded project: node ./dist/index.js
+node ./dist/index.js
 ```
